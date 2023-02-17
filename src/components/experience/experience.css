@@ -78,9 +78,14 @@
     }
     .experience__container > div {
         width: 95%;
+        padding: 0;
     }
     .experience__content {
         row-gap: 0.5rem;
+    }
+    .frontend__div {
+        padding: 0;
+        margin-bottom: -2rem;
     }
 
 }

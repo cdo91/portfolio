@@ -6,7 +6,7 @@
     flex-wrap: nowrap;
     overflow-x:scroll;
     -webkit-overflow-scrolling:touch;
-    padding: 2rem;
+    height: 50%;
 }
 
 .portfolio__item {
@@ -36,6 +36,7 @@
     display: flex;
     gap: 1rem;
 }
+
 
 /* ========================== Media Queries (Medium Devices) ========================== */
 
