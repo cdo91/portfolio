@@ -1,0 +1,51 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: 50%;
+    display: block;
+    padding: 0.5rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 55.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    border-radius: 0.5em;
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem
+}
+
+nav a:hover{
+    background: var(--color-bg);
+}
+
+nav a.active {
+    background: var(--color-bg);
+    color: var(--color-hover);
+}
+
+/* ========================== Media Queries (Medium Devices) ========================== */
+
+@media screen and (max-width: 1024px) {
+    nav {
+        width: 60%;
+    }
+}
+
+/* ========================== Media Queries (Small Devices) ========================== */
+
+@media screen and (max-width: 600px) {
+    nav {
+        width: 80%;
+    }
+}
+    

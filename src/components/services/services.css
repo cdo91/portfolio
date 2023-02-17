@@ -1,0 +1,74 @@
+.services__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.service {
+    background: var(--color-bg-variant);
+    border-radius: 0.5em;
+    height: fit-content;
+    transition: var(--transition);
+}
+
+.service:hover {
+    background: transparent;
+    border: solid 1px var(--color-primary);
+    cursor: pointer;
+}
+
+.service__head {
+    background: linear-gradient(40deg, transparent, var(--color-primary), transparent);
+    color: var(--color-bg);
+    padding: 2rem;
+    border-radius: 0.5em 0.5em 0 0;
+}
+.service__head h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.service__list {
+    padding: 2rem;
+}
+
+.service__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+    justify-content: center;
+}
+
+.service__list-icon {
+    color: var(--color-primary);
+    margin-top: 5px;
+}
+
+.service__list p {
+    font-size: 0.9rem;
+}
+
+/* ========================== Media Queries (Medium Devices) ========================== */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+/* ========================== Media Queries (Small Devices) ========================== */
+
+@media screen and (max-width: 600px) {
+    .services__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .service {
+        width: 95%;
+        margin: auto;
+    }
+    .service__head {
+        padding: 0.5rem
+    }
+    .service__list {
+        padding: 1rem;
+    }
+}
