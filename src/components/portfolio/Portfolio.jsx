@@ -64,14 +64,20 @@ const Portfolio = () => {
         <h5 className='h5'>Mina tidigare projekt</h5>
         <h2>Portfolio</h2>
 
-        <div className="container portfolio__container">
+        <div className="container">
           <Swiper
+            className='my-swiper'
             style={{padding: '3rem'}}
             modules={[Navigation, Pagination]}
             spaceBetween={50}
-            slidesPerView={3}
+            slidesPerView={2}
             navigation
             pagination={{ clickable: true }}
+            breakpoints={{
+              800: {
+                slidesPerView: 3,
+              },
+            }}
             >
             {
             data.map(({id, image, title, github, demo}) => {
