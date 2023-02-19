@@ -7,7 +7,7 @@
 .service {
     background: var(--color-bg-variant);
     border-radius: 0.5em;
-    height: fit-content;
+    height: 100%;
     transition: var(--transition);
 }
 
@@ -42,6 +42,7 @@
 .service__list-icon {
     color: var(--color-primary);
     margin-top: 5px;
+    width: 2rem;
 }
 
 .service__list p {
