@@ -70,13 +70,16 @@ const Portfolio = () => {
             style={{padding: '3rem'}}
             modules={[Navigation, Pagination]}
             spaceBetween={50}
-            slidesPerView={2}
+            slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
             breakpoints={{
-              800: {
+              1024: {
                 slidesPerView: 3,
               },
+              600: {
+                slidesPerView: 2,
+              }
             }}
             >
             {
