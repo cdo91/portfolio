@@ -7,7 +7,7 @@ nav {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 55.5rem;
+    top: 1%;
     display: flex;
     justify-content: center;
     gap: 10%;
@@ -37,7 +37,8 @@ nav a.active {
 
 @media screen and (max-width: 1024px) {
     nav {
-        width: 60%;
+        width: 95%;
+        gap: 8%;
     }
 }
 
@@ -45,7 +46,10 @@ nav a.active {
 
 @media screen and (max-width: 600px) {
     nav {
-        width: 80%;
+        width: 95%;
+        gap: 3%;
+    }
+    nav a {
     }
 }
     

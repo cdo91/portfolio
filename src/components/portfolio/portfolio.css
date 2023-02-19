@@ -39,18 +39,12 @@
 
 .my-swiper {
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
-    display: flex;
     border-radius: 0.5em;
-    gap: 1rem;
-    flex-wrap: nowrap;
-    overflow-x:scroll;
-    -webkit-overflow-scrolling:touch;
-    height: 50%;
 }
 
 /* ========================== Media Queries (Medium Devices) ========================== */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-height: 590px) {
 
 }
 

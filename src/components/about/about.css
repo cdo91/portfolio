@@ -4,6 +4,12 @@
     gap: 5%;
 }
 
+
+.about h5 {
+    margin-top: 50rem;
+    border: solid;
+}
+
 .about__me {
     width: 25rem;
     aspect-ratio: 1/1;
