@@ -11,6 +11,35 @@
     justify-items: center;
 }
 
+#text {
+    width: 0;
+    white-space: nowrap;
+    animation: typing 3s steps(30), erasing 1s steps(30) 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  .erasing {
+    animation: erasing 1s steps(30);
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes typing {
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes erasing {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
+  }
+  
+  
+
 /* ========================== CTA ========================== */
 
 .cta {

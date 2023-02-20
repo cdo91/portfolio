@@ -11,11 +11,11 @@
     transition: var(--transition);
 }
 
-.service:hover {
+/* .service:hover {
     background: transparent;
     border: solid 1px var(--color-primary);
     cursor: pointer;
-}
+} */
 
 .service__head {
     background: linear-gradient(40deg, transparent, var(--color-primary), transparent);
@@ -37,12 +37,13 @@
     gap: 1rem;
     margin-bottom: 0.8rem;
     justify-content: center;
+    text-align: start;
 }
 
 .service__list-icon {
     color: var(--color-primary);
     margin-top: 5px;
-    width: 2rem;
+
 }
 
 .service__list p {
@@ -63,7 +64,7 @@
         gap: 1rem;
     }
     .service {
-        width: 95%;
+        width: var(--container-width-ms);
         margin: auto;
     }
     .service__head {

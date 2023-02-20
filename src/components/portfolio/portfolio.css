@@ -56,6 +56,6 @@
     }
 
     .my-swiper {
-        width: 95%;
+        width: var(--container-width-ms);
     }
 }

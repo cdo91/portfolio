@@ -1,11 +1,10 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio2.png'
-import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio4.png'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.png'
+import IMG1 from '../../assets/portfoliopic.png'
+import IMG2 from '../../assets/portfoliopic2.png'
+import IMG3 from '../../assets/portfoliopic3.png'
+import IMG4 from '../../assets/portfoliopic4.png'
+import IMG5 from '../../assets/portfoliopic5.png'
 import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -16,45 +15,38 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Portfolio 1',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/4810945-Pictures-portfolio-app'
+    title: 'HTML/CSS Projekt',
+    github: 'https://github.com/cdo91?tab=repositories',
+    demo: 'https://dribbble.com/shots/20704608-Cleaning-website?added_first_shot=true'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Portfolio 2',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20538867-AIGen-AI-Generated-Pict-Landing-Page'
+    title: 'HTML/CSS Grupp-Projekt',
+    github: 'https://github.com/cdo91?tab=repositories',
+    demo: 'https://dribbble.com/shots/20704807-News-website'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Portfolio 3',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/7076472-Photographers-app'
+    title: 'Angular Grupp-Projekt',
+    github: 'https://github.com/cdo91?tab=repositories',
+    demo: 'https://dribbble.com/shots/20705086-Cleaning-website-with-booking-page'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Portfolio 4',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/18565056-Tommy-Hans-Personal-Portfolio-Landing-Page-Website'
+    title: 'Angular Projekt',
+    github: 'https://github.com/cdo91?tab=repositories',
+    demo: 'https://dribbble.com/shots/20705431-Angular-To-Do-List'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Portfolio 5',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20596812-Website-design-concept-for-photographer-exhibition'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Portfolio 6',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/19841339-Photographer-Portfolio-Website'
-  },
+    title: 'React Projekt',
+    github: 'https://github.com/cdo91?tab=repositories',
+    demo: 'https://dribbble.com/shots/20705650-React-Country-List'
+  }
 ]
 
 const Portfolio = () => {
@@ -64,7 +56,7 @@ const Portfolio = () => {
         <h5 className='h5'>Mina tidigare projekt</h5>
         <h2>Portfolio</h2>
 
-        <div className="container">
+        <div id="portfolio__div" className="container">
           <Swiper
             className='my-swiper'
             style={{padding: '3rem'}}

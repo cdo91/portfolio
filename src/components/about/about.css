@@ -49,7 +49,7 @@
 
 .about__card:hover {
     background: var(--color-bg);
-    border-color: var(--color-primary);
+    border-color: var(--color-primary-variant);
     cursor: pointer;
     transition: var(--transition);
 }
@@ -122,10 +122,11 @@
         text-align: center;
         width: 50%;
         margin: auto;
-        width: 95%;
+        width: var(--container-width-ms);
     }
     .about__content p {
         margin: 1.5rem 0;
+        text-align: start;
     }
     .h5{
         margin-bottom: -2rem;
