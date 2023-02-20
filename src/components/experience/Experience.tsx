@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div>
       <section id='experience'>
-        <h5 className='h5'>Detta Är Mina</h5>
+        <h5 className='h5'>Detta är mina</h5>
         <h2>Erfarenheter</h2>
 
         <div id="experience__div" className="container experience__container">
@@ -19,35 +19,35 @@ const Experience = () => {
                 <BsPatchCheckFill className='experience__details-icon' />
                 <div>
                   <h4>HTML</h4>
-                  <small className='text-light'>Kurs Avslutad</small>
+                  <small className='text-light'>Kurs avslutad</small>
                 </div>
               </article>
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
                 <div>
                   <h4>CSS</h4>
-                  <small className='text-light'>Kurs Avslutad</small>
+                  <small className='text-light'>Kurs avslutad</small>
                 </div>
               </article>
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
                 <div>
                   <h4>JavaScript</h4>
-                  <small className='text-light'>Kurs Avslutad</small>
+                  <small className='text-light'>Kurs avslutad</small>
                 </div>
               </article>
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
                 <div>
                   <h4>React</h4>
-                  <small className='text-light'>Kurs Avslutad</small>
+                  <small className='text-light'>Kurs avslutad</small>
                 </div>
               </article>
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
                 <div>
                   <h4>Angular</h4>
-                  <small className='text-light'>Kurs Avslutad</small>
+                  <small className='text-light'>Kurs avslutad</small>
                 </div>
               </article>
             </div>

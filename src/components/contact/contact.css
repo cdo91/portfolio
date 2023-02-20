@@ -34,6 +34,7 @@
     color: var(--color-hover);
 }
 
+
 .contact__option a {
     margin-top: 0.7rem;
     display: inline-block;
@@ -78,10 +79,17 @@ input, textarea {
         gap: 2rem;
         width: var(--container-width-ms);
     }
+    .contact__option:hover {
+        background: var(--color-bg-variant);
+        border: solid 1px transparent;
+    }
+    .contact__option:hover .icon {
+        color: var(--color-primary);
+    }
     .contact__option {
         padding: 0.3rem;
     }
-    input, textarea {
-        padding: 1rem;
-    }
+/*     input, textarea {
+        padding: 2rem;
+    } */
 }

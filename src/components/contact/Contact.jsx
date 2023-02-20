@@ -26,8 +26,8 @@ const Contact = () => {
   return (
     <div>
       <section id='contact'>
-        <h5>Ta kontakt</h5>
-        <h2>Med Mig</h2>
+        <h5 className='h5'>Ta kontakt</h5>
+        <h2>Med mig</h2>
 
         <div className="container contact__container">
           <div className="contact__options">
@@ -35,7 +35,7 @@ const Contact = () => {
               <MdEmail className='icon' />
               <h4>Email</h4>
               <h5>ch.olofsson@outlook.com</h5>
-              <a href="mailto:ch.olofsson@outlook.com">Skicka Meddelande</a>
+              <a className='a' href="mailto:ch.olofsson@outlook.com">Skicka Meddelande</a>
             </article>
             <article className="contact__option">
               <RiMessengerFill className='icon' />
@@ -60,9 +60,9 @@ const Contact = () => {
             <input 
             type="email" 
             name="email" 
-            placeholder='Din Email' 
+            placeholder='Din email' 
             required />
-            <textarea name="message" cols={30} rows={7} placeholder='Ditt Meddelande' required ></textarea>
+            <textarea name="message" cols={30} rows={7} placeholder='Ditt meddelande' required ></textarea>
             <button 
             type='submit' 
             className='btn'>Skicka Meddelande</button>

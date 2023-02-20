@@ -7,7 +7,7 @@ const CTA = () => {
   return (
     <div className='cta'>
       <a href={CV} download className='btn'>Hämta CV</a>
-      <a href='#contact' className='btn btn-primary'>Kontakta mig</a>
+      <a href='#contact' className='btn btn-primary'>Kontakta Mig</a>
     </div>
   );
 };

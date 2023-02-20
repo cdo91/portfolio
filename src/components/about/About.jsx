@@ -10,8 +10,8 @@ const About = () => {
   return (
     <div>
       <section id='about'>
-        <h5 className='h5'>Lite Kort Om</h5>
-        <h2>Mig Själv</h2>
+        <h5 className='h5'>Lite kort om</h5>
+        <h2>Mig själv</h2>
         <div className="container about__container">
           <div className="about__me">
             <div className="about__me-image">
@@ -36,10 +36,9 @@ const About = () => {
                 <small>10 avslutade skol-projekt</small>
               </article>
             </div>
-
-            <p>Jag är en ambitiös front-end utvecklingsstudent med ett stort intresse för webbutveckling. Min entusiasm för att skapa estetiskt tilltalande samt användarvänliga webbeapplikationer är väldigt stor. Det finns väldigt mycket kvar att lära men försöker hela tiden att förbättra mina färdigheter och kunskaper.</p>
-            <p>Jag skulle beskriva mig själv som både en målmedveten och tålmodig person som sätter höga krav på sig själv. Personligen anser jag mig ha en god förmåga att arbeta i team samtidigt som jag kommunicerar mina idéer och lösningar på ett tydligt och effektivt sätt. Min strävan efter en karriär inom webbutveckling gör att jag känner mig redo att ta mig an nya utmaningar och skapa fantastiska webbplatser som inte bara ser bra ut, utan också fungerar perfekt för användarna.</p>
-            <a href="#contact" className='btn btn-primary'><AiFillMessage sx={{':hover': {bgcolor: 'var(--color-bg-variant)'}, color: 'var(--color-bg-variant)' }} style={{width: 100, height: 30}} /></a>
+            <p>Mitt stora intresse för webbutveckling och att skapa estetiskt tilltalande samt användarvänliga webbapplikationer har drivit mig att bli en ambitiös front-end utvecklingsstudent. Genom att förena funktionalitet med estetisk design, strävar jag efter att skapa digitala verktyg som ger en positiv användarupplevelse.</p>
+            <p>Jag är målmedveten och tålmodig i mitt arbete och har en förmåga att samarbeta effektivt i team genom att tydligt kommunicera mina idéer och lösningar. Med min glöd för webbutveckling, ser jag fram emot att ta mig an nya utmaningar och skapa fantastiska webbplatser som hjälper användarna att navigera och förbättra deras upplevelse på nätet.</p>
+{/*             <a href="#contact" className='btn btn-primary'><AiFillMessage sx={{':hover': {bgcolor: 'var(--color-bg-variant)'}, color: 'var(--color-bg-variant)' }} style={{width: 100, height: 20}} /></a> */}
           </div>
         </div>
       </section>

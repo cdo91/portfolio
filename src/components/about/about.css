@@ -131,5 +131,12 @@
     .h5{
         margin-bottom: -2rem;
     }
+    .about__card:hover {
+        background: var(--color-bg-variant);
+        border: 1px solid transparent;
+    }
+    .about__content p {
+        font-size: 0.9rem;
+    }
 }
 
