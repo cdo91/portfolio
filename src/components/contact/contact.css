@@ -41,8 +41,10 @@
     font-size: 0.8rem;
 }
 
-.btn {
+button {
     background: var(--color-bg);
+    height: 3.5rem;
+    transition: var(--transition);
 }
 
 /* ========================== FORM ========================== */
