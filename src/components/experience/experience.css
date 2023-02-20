@@ -23,12 +23,6 @@
     transition: var(--transition);
 }
 
-/* .experience__container > div:hover{
-    background: var(--color-bg);
-    border-color: var(--color-primary-variant);
-    cursor: pointer;
-} */
-
 .experience__container > div h3 {
     margin-bottom: 2rem;
     color: var(--color-bg);
@@ -51,10 +45,6 @@
     margin-top: 6px;
     color: var(--color-primary);
 }
-
-/* .experience__container > div:hover .experience__details-icon {
-    color: var(--color-hover);
-} */
 
 /* ========================== Media Queries (Medium Devices) ========================== */
 
