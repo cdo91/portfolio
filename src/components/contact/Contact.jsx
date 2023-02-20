@@ -3,12 +3,8 @@ import './contact.css'
 import { MdEmail } from 'react-icons/md'
 import { RiWhatsappFill, RiMessengerFill } from 'react-icons/ri'
 import emailjs from 'emailjs-com';
-import { useForm } from "react-hook-form";
-
 
 const Contact = () => {
-
-  const { register, handleSubmit, formState: { errors } } = useForm();
 
   const formRef = useRef();
 
@@ -24,7 +20,8 @@ const Contact = () => {
   };
 
   return (
-    <div>
+
+    <>
       <section id='contact'>
         <h5 className='h5'>Ta kontakt</h5>
         <h2>Med mig</h2>
@@ -50,26 +47,34 @@ const Contact = () => {
               <a href="https://api.whatsapp.com/send?phone=46762220279" target="_blank">Skicka Meddelande</a>
             </article>
           </div>
+          
           <form ref={formRef} onSubmit={handleSendEmail} >
             <input 
-            type="text" 
-            name="name" 
-            id="name" 
-            placeholder='Ditt fullständiga namn' 
-            required />
+              type="text" 
+              name="name" 
+              id="name" 
+              placeholder='Ditt fullständiga namn' 
+              required 
+            />
             <input 
-            type="email" 
-            name="email" 
-            placeholder='Din email' 
-            required />
-            <textarea name="message" cols={30} rows={7} placeholder='Ditt meddelande' required ></textarea>
-            <button 
-            type='submit' 
-            className='btn'>Skicka Meddelande</button>
+              type="email" 
+              name="email" 
+              placeholder='Din email' 
+              required 
+            />
+            <textarea 
+              name="message" 
+              cols={30} 
+              rows={7} 
+              placeholder='Ditt meddelande' 
+              required 
+            />
+            <button  type='submit' className='btn'>Skicka Meddelande</button>
           </form>
         </div>
       </section>
-    </div>
+    </>
+
   )
 }
 

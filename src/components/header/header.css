@@ -76,33 +76,6 @@
     overflow: hidden;
 }
 
-/* ========================== Scroll Down ========================== */
-
-.scroll__down {
-    position: absolute;
-    right: 1rem;
-    top: 55%;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-
-}
-
-/* ========================== Media Queries (Medium Devices) ========================== */
-
-@media screen and (max-width: 1024px) {
-
-}
-
-@media screen and (max-height: 590px) {
-/*     header {
-        height: 145vh;
-    } */
-/*     .scroll__down {
-        bottom: 22rem;
-    } */
-}
-
 /* ========================== Media Queries (Small Devices) ========================== */
 
 @media screen and (max-width: 600px) {

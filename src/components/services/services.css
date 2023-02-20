@@ -11,12 +11,6 @@
     transition: var(--transition);
 }
 
-/* .service:hover {
-    background: transparent;
-    border: solid 1px var(--color-primary);
-    cursor: pointer;
-} */
-
 .service__head {
     background: linear-gradient(40deg, transparent, var(--color-primary), transparent);
     color: var(--color-bg);

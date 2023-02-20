@@ -12,18 +12,18 @@ import Services from './components/services/Services'
 
 const App = () => {
   return (
-    <div>
-      <>
-        <Header />
-        <Nav />
-        <About />
-        <Experience />
-        <Services />
-        <Portfolio />
-        <Contact />
-        <Footer />
-      </>
-    </div>
+
+    <>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </>
+
   )
 }
 

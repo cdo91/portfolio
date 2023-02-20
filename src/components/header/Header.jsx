@@ -30,21 +30,26 @@ const Header = () => {
   setInterval(animate, 120);
 
   return (
+
     <>
       <section id="header">
-      <header>
-      <div className="container header__container">
-        <h5 >Mitt namn är</h5>
-        <h1>Christian Olofsson</h1>
-        <h5 style={{height: '1rem', color: 'var(--color-primary)'}}><span id="text"></span></h5>
-        <CTA />
-        <HeaderSocials />
-        <img className="me" src={ME} alt="" />
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
-      </div>
-    </header>
+        <header>
+          <div className="container header__container">
+            <h5 >Mitt namn är</h5>
+            <h1>Christian Olofsson</h1>
+            <h5 
+              style={{height: '1rem', color: 'var(--color-primary)'}}
+              >
+              <span id="text"></span>
+            </h5>
+            <CTA />
+            <HeaderSocials />
+            <img className="me" src={ME} alt="" />
+          </div>
+        </header>
       </section>
     </>
+    
   )
 }
 

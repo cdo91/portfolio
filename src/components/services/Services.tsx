@@ -4,7 +4,8 @@ import {BiCheck} from 'react-icons/bi'
 
 const Services = () => {
   return (
-    <div>
+
+    <>
       <section id='services'>
         <h5 className='h5'>Jag erbjuder dessa</h5>
         <h2>Tjänster</h2>
@@ -41,7 +42,6 @@ const Services = () => {
               </li>
             </ul>
           </article>
-          {/* END OF UI/UX*/}
           <article className='service'>
             <div className="service__head">
               <h3>Web-Utveckling</h3>
@@ -77,10 +77,10 @@ const Services = () => {
               </li>
             </ul>
           </article>
-          {/* END of WEB DEV */}
         </div>
       </section>
-    </div>
+    </>
+    
   )
 }
 

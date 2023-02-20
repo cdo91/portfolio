@@ -4,7 +4,8 @@ import {BsPatchCheckFill} from 'react-icons/bs'
 
 const Experience = () => {
   return (
-    <div>
+
+    <>
       <section id='experience'>
         <h5 className='h5'>Detta är mina</h5>
         <h2>Erfarenheter</h2>
@@ -58,32 +59,33 @@ const Experience = () => {
               <h3>Back-End Utveckling</h3>
             </div>
             <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Node JS</h4>
-                <small className='text-light'>Studerar</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Python</h4>
-                <small className='text-light'>Studerar</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>FireBase</h4>
-                <small className='text-light'>Studerar</small>
-              </div>
-            </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <div>
+                  <h4>Node JS</h4>
+                  <small className='text-light'>Studerar</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <div>
+                  <h4>Python</h4>
+                  <small className='text-light'>Studerar</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <div>
+                  <h4>FireBase</h4>
+                  <small className='text-light'>Studerar</small>
+                </div>
+              </article>
             </div>
           </div>
         </div>
       </section>
-    </div>
+    </>
+    
   )
 }
 
