@@ -9,6 +9,7 @@ import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import Portfolio from './components/portfolio/Portfolio'
 import Services from './components/services/Services'
+import TabIcon from '../src/assets/webtabicon.png'
 
 const App = () => {
   return (
@@ -22,6 +23,10 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
+      <Helmet>
+        <title>Portfolio</title>
+        <link rel="icon" href={TabIcon} type="image/png"></link>
+      </Helmet>
     </>
 
   )

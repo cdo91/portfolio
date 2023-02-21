@@ -44,9 +44,9 @@ const About = () => {
             </p>
             <p>
               Jag är målmedveten och tålmodig i mitt arbete och har en förmåga att samarbeta effektivt i team 
-              genom att tydligt kommunicera mina idéer och lösningar. Med min glöd för webbutveckling, ser jag 
-              fram emot att ta mig an nya utmaningar och skapa fantastiska webbplatser som hjälper användarna 
-              att navigera och förbättra deras upplevelse på nätet.
+              via tydlig kommunikation av mina idéer och lösningar. Med min glöd för webbutveckling, ser jag 
+              fram emot att ta mig an nya utmaningar och skapa fantastiska webbplatser som underlättar för 
+              användarna att navigera och förbättra deras upplevelse på nätet.
             </p>
           </div>
         </div>
