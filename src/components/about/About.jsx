@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/pic3.png'
+import ME from '../../assets/aboutpic.png'
 import {FaAward} from 'react-icons/fa'
 import { AiFillFolderOpen } from 'react-icons/ai'
 import { MdSchool } from 'react-icons/md'
