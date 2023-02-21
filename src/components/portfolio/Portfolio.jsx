@@ -67,12 +67,12 @@ const Portfolio = () => {
             navigation
             pagination={{ clickable: true }}
             breakpoints={{
-              1024: {
+              1400: {
                 slidesPerView: 3,
               },
-              600: {
+              830: {
                 slidesPerView: 2,
-              }
+              },
             }}
             >
             {

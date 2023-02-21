@@ -31,6 +31,11 @@
     border-radius: 0.5em;
 }
 
+.portfolio__item-cta a {
+    padding: 0.2rem 1.3rem;
+    text-align: center;
+}
+
 /* ========================== Media Queries (Small Devices) ========================== */
 
 @media screen and (max-width: 600px) {
@@ -40,5 +45,16 @@
 
     .my-swiper {
         width: var(--container-width-ms);
+    }
+}
+
+@media screen and (max-width: 430px) {
+    h3 {
+        font-size: 12px;
+    }
+    .portfolio__item-cta a {
+        padding: 0rem 1.9rem;
+        text-align: center;
+        font-size: 12px;
     }
 }
