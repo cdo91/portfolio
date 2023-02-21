@@ -85,9 +85,6 @@ input, textarea {
         background: var(--color-bg-variant);
         border: solid 1px transparent;
     }
-    .contact__option:hover .icon {
-        color: var(--color-primary);
-    }
     .contact__option {
         padding: 0.3rem;
     }
